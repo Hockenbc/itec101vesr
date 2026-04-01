@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Best Practices</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">My Personal Values</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Personal Values</a>
+                </li>
+                <li class="nav-item">
+                    <a href="industry.html" class="nav-link active">Industry</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Cybersecurity Best Practices</h1>
+            <p class="subtitle">Securing Software Development in the Technology Industry</p>
+        </section>
+
+        <section class="industry-overview">
+            <h2>Technology & Software Development Industry</h2>
+            <p>The technology industry faces rapidly evolving cyber threats. As organizations increasingly depend on software, APIs, and cloud infrastructure, robust cybersecurity practices are essential. This page outlines industry-standard best practices to protect systems, data, and users.</p>
+        </section>
+
+        <section class="best-practices">
+            <div class="practice-card">
+                <h3>🔐 Secure Coding Practices</h3>
+                <ul>
+                    <li><strong>Input Validation:</strong> Validate all user inputs to prevent injection attacks (SQL injection, XSS, etc.)</li>
+                    <li><strong>Use Established Libraries:</strong> Leverage well-maintained security libraries rather than building custom solutions</li>
+                    <li><strong>Principle of Least Privilege:</strong> Grant minimal necessary permissions to functions and services</li>
+                    <li><strong>Error Handling:</strong> Avoid exposing sensitive information in error messages</li>
+                    <li><strong>Code Reviews:</strong> Implement mandatory peer reviews focused on security aspects</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>🔑 Authentication & Access Control</h3>
+                <ul>
+                    <li><strong>Multi-Factor Authentication (MFA):</strong> Require MFA for all critical systems and developer accounts</li>
+                    <li><strong>Strong Password Policies:</strong> Enforce minimum complexity and regular rotation</li>
+                    <li><strong>Role-Based Access Control (RBAC):</strong> Implement granular permission models based on job functions</li>
+                    <li><strong>API Authentication:</strong> Use OAuth 2.0 or JWT tokens for API security</li>
+                    <li><strong>Session Management:</strong> Implement secure session timeouts and token expiration</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>📊 Vulnerability Management</h3>
+                <ul>
+                    <li><strong>Security Scanning:</strong> Use automated tools (SAST/DAST) to identify vulnerabilities early</li>
+                    <li><strong>Dependency Management:</strong> Regularly audit and update third-party libraries and dependencies</li>
+                    <li><strong>Penetration Testing:</strong> Conduct regular penetration tests to identify weaknesses</li>
+                    <li><strong>Patch Management:</strong> Apply security patches promptly across all systems</li>
+                    <li><strong>Vulnerability Disclosure:</strong> Maintain a responsible disclosure program</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>🛡️ Data Protection & Privacy</h3>
+                <ul>
+                    <li><strong>Encryption in Transit:</strong> Use TLS/SSL for all data transmission</li>
+                    <li><strong>Encryption at Rest:</strong> Encrypt sensitive data stored in databases and backups</li>
+                    <li><strong>Data Classification:</strong> Categorize data by sensitivity level</li>
+                    <li><strong>PII Protection:</strong> Implement strict controls for personally identifiable information</li>
+                    <li><strong>Secure Deletion:</strong> Ensure proper data destruction when no longer needed</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>📝 Security Monitoring & Logging</h3>
+                <ul>
+                    <li><strong>Centralized Logging:</strong> Aggregate logs from all systems for analysis</li>
+                    <li><strong>Real-Time Alerts:</strong> Set up alerts for suspicious activities</li>
+                    <li><strong>Audit Trails:</strong> Maintain comprehensive audit logs for compliance</li>
+                    <li><strong>Incident Response:</strong> Establish procedures for detecting and responding to incidents</li>
+                    <li><strong>Security Information & Event Management (SIEM):</strong> Deploy SIEM solutions for threat detection</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>🚀 Secure DevOps & CI/CD</h3>
+                <ul>
+                    <li><strong>Infrastructure as Code Security:</strong> Audit and version control all infrastructure configurations</li>
+                    <li><strong>Container Security:</strong> Scan container images for vulnerabilities</li>
+                    <li><strong>Secrets Management:</strong> Use secure vaults for API keys and credentials</li>
+                    <li><strong>Pipeline Security:</strong> Implement security gates in the CI/CD pipeline</li>
+                    <li><strong>Secure Deployment:</strong> Verify checksums and digital signatures during deployments</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>👥 Security Training & Culture</h3>
+                <ul>
+                    <li><strong>Awareness Programs:</strong> Conduct regular security training for all employees</li>
+                    <li><strong>Phishing Simulations:</strong> Test employee awareness with simulated attacks</li>
+                    <li><strong>Security Champions:</strong> Designate security leads within teams</li>
+                    <li><strong>Incident Response Drills:</strong> Practice incident handling procedures</li>
+                    <li><strong>Security Knowledge Sharing:</strong> Foster a culture of sharing security learnings</li>
+                </ul>
+            </div>
+
+            <div class="practice-card">
+                <h3>⚖️ Compliance & Governance</h3>
+                <ul>
+                    <li><strong>Regulatory Compliance:</strong> Adhere to relevant standards (GDPR, HIPAA, SOC 2, etc.)</li>
+                    <li><strong>Security Policies:</strong> Maintain documented security policies and procedures</li>
+                    <li><strong>Risk Assessments:</strong> Conduct regular risk assessments and impact analysis</li>
+                    <li><strong>Third-Party Risk:</strong> Evaluate security practices of vendors and partners</li>
+                    <li><strong>Security Audits:</strong> Perform regular independent security audits</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="conclusion">
+            <h2>Implementing a Comprehensive Security Program</h2>
+            <p>Cybersecurity is not a one-time project but a continuous process. Organizations should adopt a risk-based approach, prioritizing high-impact areas while maintaining baseline security across all systems. By implementing these best practices and fostering a security-conscious culture, technology companies can significantly reduce their risk of breaches and protect both their assets and their customers' data.</p>
+            <p>Remember: <strong>Security is everyone's responsibility.</strong> From developers to operations teams to management, all stakeholders must actively participate in maintaining a secure environment.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Cybersecurity Best Practices. All rights reserved.</p>
+    </footer>
+</body>
+</html>
