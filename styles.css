@@ -194,25 +194,21 @@ body {
 }
 
 .practice-card ul {
-    list-style: none;
-    padding: 0;
+    list-style: disc inside;
+    padding-left: 1rem;
 }
 
 .practice-card li {
     margin-bottom: 1rem;
     color: #555;
     line-height: 1.6;
-    padding-left: 1.5rem;
+    padding-left: 0;
     position: relative;
 }
 
 .practice-card li:before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #764ba2;
-    font-weight: bold;
-}
+    content: "";
+    position: static;
 
 .practice-card strong {
     color: #333;
@@ -273,6 +269,9 @@ body {
     text-align: center;
     padding: 2rem;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer p {
